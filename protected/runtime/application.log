@@ -1,0 +1,966 @@
+2013/01/15 17:51:13 [error] [php] include(Pagina.php): failed to open stream: No such file or directory (/Users/cristian/Dropbox/proyectos/frikicity/framework/YiiBase.php:423)
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/themes/frikicity/views/layouts/main.php(82): spl_autoload_call()
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CBaseController.php(127): require()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CBaseController.php(96): SiteController->renderInternal()
+#3 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/widgets/CContentDecorator.php(77): SiteController->renderFile()
+#4 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate()
+#5 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput()
+#6 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CBaseController.php(207): CContentDecorator->run()
+#7 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CBaseController.php(301): SiteController->endWidget()
+#8 /Users/cristian/Dropbox/proyectos/frikicity/themes/frikicity/views/layouts/column1.php(6): SiteController->endContent()
+#9 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CBaseController.php(127): require()
+#10 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CBaseController.php(96): SiteController->renderInternal()
+#11 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(785): SiteController->renderFile()
+#12 /Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/SiteController.php(32): SiteController->render()
+#13 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#14 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(309): CInlineAction->runWithParams()
+#15 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(287): SiteController->runAction()
+#16 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#17 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(283): SiteController->run()
+#18 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#19 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#20 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CWebApplication->run()
+REQUEST_URI=/frikicity/
+in /Users/cristian/Dropbox/proyectos/frikicity/themes/frikicity/views/layouts/main.php (82)
+in /Users/cristian/Dropbox/proyectos/frikicity/themes/frikicity/views/layouts/column1.php (6)
+in /Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/SiteController.php (32)
+2013/01/15 18:04:36 [error] [php] include(Pagina.php): failed to open stream: No such file or directory (/Users/cristian/Dropbox/proyectos/frikicity/framework/YiiBase.php:423)
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/themes/frikicity/views/layouts/main.php(82): spl_autoload_call()
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CBaseController.php(127): require()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CBaseController.php(96): SiteController->renderInternal()
+#3 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/widgets/CContentDecorator.php(77): SiteController->renderFile()
+#4 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate()
+#5 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput()
+#6 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CBaseController.php(207): CContentDecorator->run()
+#7 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CBaseController.php(301): SiteController->endWidget()
+#8 /Users/cristian/Dropbox/proyectos/frikicity/themes/frikicity/views/layouts/column1.php(6): SiteController->endContent()
+#9 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CBaseController.php(127): require()
+#10 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CBaseController.php(96): SiteController->renderInternal()
+#11 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(785): SiteController->renderFile()
+#12 /Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/SiteController.php(32): SiteController->render()
+#13 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#14 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(309): CInlineAction->runWithParams()
+#15 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(287): SiteController->runAction()
+#16 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#17 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(283): SiteController->run()
+#18 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#19 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#20 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CWebApplication->run()
+REQUEST_URI=/frikicity/
+in /Users/cristian/Dropbox/proyectos/frikicity/themes/frikicity/views/layouts/main.php (82)
+in /Users/cristian/Dropbox/proyectos/frikicity/themes/frikicity/views/layouts/column1.php (6)
+in /Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/SiteController.php (32)
+2013/01/15 18:04:38 [error] [php] include(Pagina.php): failed to open stream: No such file or directory (/Users/cristian/Dropbox/proyectos/frikicity/framework/YiiBase.php:423)
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/themes/frikicity/views/layouts/main.php(82): spl_autoload_call()
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CBaseController.php(127): require()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CBaseController.php(96): SiteController->renderInternal()
+#3 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/widgets/CContentDecorator.php(77): SiteController->renderFile()
+#4 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate()
+#5 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput()
+#6 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CBaseController.php(207): CContentDecorator->run()
+#7 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CBaseController.php(301): SiteController->endWidget()
+#8 /Users/cristian/Dropbox/proyectos/frikicity/themes/frikicity/views/layouts/column1.php(6): SiteController->endContent()
+#9 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CBaseController.php(127): require()
+#10 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CBaseController.php(96): SiteController->renderInternal()
+#11 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(785): SiteController->renderFile()
+#12 /Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/SiteController.php(32): SiteController->render()
+#13 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#14 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(309): CInlineAction->runWithParams()
+#15 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(287): SiteController->runAction()
+#16 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#17 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(283): SiteController->run()
+#18 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#19 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#20 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CWebApplication->run()
+REQUEST_URI=/frikicity/
+in /Users/cristian/Dropbox/proyectos/frikicity/themes/frikicity/views/layouts/main.php (82)
+in /Users/cristian/Dropbox/proyectos/frikicity/themes/frikicity/views/layouts/column1.php (6)
+in /Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/SiteController.php (32)
+2013/01/15 18:06:45 [error] [exception.CDbException] exception 'CDbException' with message 'The table "pg_pagina" for active record class "Pagina" cannot be found in the database.' in /Users/cristian/Dropbox/proyectos/frikicity/framework/db/ar/CActiveRecord.php:2263
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/db/ar/CActiveRecord.php(383): CActiveRecordMetaData->__construct(Object(Pagina))
+#1 /Users/cristian/Dropbox/proyectos/frikicity/protected/models/Pagina.php(24): CActiveRecord::model('Pagina')
+#2 /Users/cristian/Dropbox/proyectos/frikicity/themes/frikicity/views/layouts/main.php(82): Pagina::model()
+#3 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CBaseController.php(127): require('/Users/cristian...')
+#4 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Users/cristian...', Array, true)
+#5 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/widgets/CContentDecorator.php(77): CBaseController->renderFile('/Users/cristian...', Array, true)
+#6 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#7 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#8 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CBaseController.php(207): COutputProcessor->run()
+#9 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#10 /Users/cristian/Dropbox/proyectos/frikicity/themes/frikicity/views/layouts/column1.php(6): CBaseController->endContent()
+#11 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CBaseController.php(127): require('/Users/cristian...')
+#12 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Users/cristian...', Array, true)
+#13 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(785): CBaseController->renderFile('/Users/cristian...', Array, true)
+#14 /Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/SiteController.php(32): CController->render('index')
+#15 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#16 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#17 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#18 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(283): CController->run('')
+#20 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#21 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#22 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/frikicity/
+---
+2013/01/15 18:08:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "categoria/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('categoria/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/index.php/categoria/1
+HTTP_REFERER=http://localhost/frikicity/
+---
+2013/01/15 18:09:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index.php".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('index.php')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/index.php/index.php
+HTTP_REFERER=http://localhost/frikicity/
+---
+2013/01/15 18:09:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index.php".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('index.php')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/index.php/index.php
+HTTP_REFERER=http://localhost/frikicity/
+---
+2013/01/15 18:12:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imagenes/xslimimagenpequena.gif".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('imagenes/xslimi...')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/imagenes/xslimimagenpequena.gif
+HTTP_REFERER=http://localhost/frikicity/index.php
+---
+2013/01/15 18:12:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imagenes/ps3slim-imagenpequena.gif".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('imagenes/ps3sli...')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/imagenes/ps3slim-imagenpequena.gif
+HTTP_REFERER=http://localhost/frikicity/index.php
+---
+2013/01/15 18:12:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imagenes/wiiimagenpequena.gif".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('imagenes/wiiima...')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/imagenes/wiiimagenpequena.gif
+HTTP_REFERER=http://localhost/frikicity/index.php
+---
+2013/01/15 18:12:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imagenes/wiiimagenpequena.gif".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('imagenes/wiiima...')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/imagenes/wiiimagenpequena.gif
+HTTP_REFERER=http://localhost/frikicity/index.php
+---
+2013/01/15 18:12:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imagenes/ps3slim-imagenpequena.gif".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('imagenes/ps3sli...')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/imagenes/ps3slim-imagenpequena.gif
+HTTP_REFERER=http://localhost/frikicity/index.php
+---
+2013/01/15 18:12:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imagenes/xslimimagenpequena.gif".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('imagenes/xslimi...')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/imagenes/xslimimagenpequena.gif
+HTTP_REFERER=http://localhost/frikicity/index.php
+---
+2013/01/15 18:12:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/frikicity/images/camera-loader.gif".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('themes/frikicit...')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/themes/frikicity/images/camera-loader.gif
+HTTP_REFERER=http://localhost/frikicity/index.php
+---
+2013/01/15 18:12:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imagenes/iphoneslice.gif".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('imagenes/iphone...')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/imagenes/iphoneslice.gif
+HTTP_REFERER=http://localhost/frikicity/index.php
+---
+2013/01/15 18:16:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "categoria/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('categoria/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/categoria/1
+HTTP_REFERER=http://localhost/frikicity/index.php
+---
+2013/01/15 18:17:32 [error] [php] Trying to get property of non-object (/Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/CategoriaController.php:57)
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(309): CInlineAction->runWithParams()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(134): CategoriaController->runAction()
+#3 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#4 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#5 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CInlineFilter.php(59): CategoriaController->filterAccessControl()
+#6 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#7 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(292): CFilterChain->run()
+#8 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(266): CategoriaController->runActionWithFilters()
+#9 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(283): CategoriaController->run()
+#10 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#11 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CWebApplication->run()
+REQUEST_URI=/frikicity/categoria/1
+in /Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/CategoriaController.php (57)
+in /Users/cristian/Dropbox/proyectos/frikicity/index.php (13)
+2013/01/15 18:18:41 [error] [php] Trying to get property of non-object (/Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/CategoriaController.php:57)
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(309): CInlineAction->runWithParams()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(134): CategoriaController->runAction()
+#3 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#4 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#5 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CInlineFilter.php(59): CategoriaController->filterAccessControl()
+#6 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#7 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(292): CFilterChain->run()
+#8 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(266): CategoriaController->runActionWithFilters()
+#9 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(283): CategoriaController->run()
+#10 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#11 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CWebApplication->run()
+REQUEST_URI=/frikicity/categoria/1
+in /Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/CategoriaController.php (57)
+in /Users/cristian/Dropbox/proyectos/frikicity/index.php (13)
+2013/01/15 18:18:42 [error] [php] Trying to get property of non-object (/Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/CategoriaController.php:57)
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(309): CInlineAction->runWithParams()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(134): CategoriaController->runAction()
+#3 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#4 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#5 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CInlineFilter.php(59): CategoriaController->filterAccessControl()
+#6 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#7 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(292): CFilterChain->run()
+#8 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(266): CategoriaController->runActionWithFilters()
+#9 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(283): CategoriaController->run()
+#10 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#11 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CWebApplication->run()
+REQUEST_URI=/frikicity/categoria/1
+in /Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/CategoriaController.php (57)
+in /Users/cristian/Dropbox/proyectos/frikicity/index.php (13)
+2013/01/15 18:18:45 [error] [php] Trying to get property of non-object (/Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/CategoriaController.php:57)
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(309): CInlineAction->runWithParams()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(134): CategoriaController->runAction()
+#3 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#4 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#5 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CInlineFilter.php(59): CategoriaController->filterAccessControl()
+#6 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#7 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(292): CFilterChain->run()
+#8 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(266): CategoriaController->runActionWithFilters()
+#9 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(283): CategoriaController->run()
+#10 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#11 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CWebApplication->run()
+REQUEST_URI=/frikicity/categoria/1
+in /Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/CategoriaController.php (57)
+in /Users/cristian/Dropbox/proyectos/frikicity/index.php (13)
+2013/01/15 18:18:45 [error] [php] Trying to get property of non-object (/Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/CategoriaController.php:57)
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(309): CInlineAction->runWithParams()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(134): CategoriaController->runAction()
+#3 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#4 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#5 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CInlineFilter.php(59): CategoriaController->filterAccessControl()
+#6 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#7 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(292): CFilterChain->run()
+#8 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(266): CategoriaController->runActionWithFilters()
+#9 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(283): CategoriaController->run()
+#10 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#11 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CWebApplication->run()
+REQUEST_URI=/frikicity/categoria/1
+in /Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/CategoriaController.php (57)
+in /Users/cristian/Dropbox/proyectos/frikicity/index.php (13)
+2013/01/15 18:18:45 [error] [php] Trying to get property of non-object (/Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/CategoriaController.php:57)
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(309): CInlineAction->runWithParams()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(134): CategoriaController->runAction()
+#3 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#4 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#5 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CInlineFilter.php(59): CategoriaController->filterAccessControl()
+#6 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#7 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(292): CFilterChain->run()
+#8 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(266): CategoriaController->runActionWithFilters()
+#9 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(283): CategoriaController->run()
+#10 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#11 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CWebApplication->run()
+REQUEST_URI=/frikicity/categoria/1
+in /Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/CategoriaController.php (57)
+in /Users/cristian/Dropbox/proyectos/frikicity/index.php (13)
+2013/01/15 18:18:46 [error] [php] Trying to get property of non-object (/Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/CategoriaController.php:57)
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(309): CInlineAction->runWithParams()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(134): CategoriaController->runAction()
+#3 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#4 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#5 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CInlineFilter.php(59): CategoriaController->filterAccessControl()
+#6 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#7 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(292): CFilterChain->run()
+#8 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(266): CategoriaController->runActionWithFilters()
+#9 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(283): CategoriaController->run()
+#10 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#11 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CWebApplication->run()
+REQUEST_URI=/frikicity/categoria/1
+in /Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/CategoriaController.php (57)
+in /Users/cristian/Dropbox/proyectos/frikicity/index.php (13)
+2013/01/15 18:18:46 [error] [php] Trying to get property of non-object (/Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/CategoriaController.php:57)
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(309): CInlineAction->runWithParams()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(134): CategoriaController->runAction()
+#3 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#4 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#5 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CInlineFilter.php(59): CategoriaController->filterAccessControl()
+#6 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#7 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(292): CFilterChain->run()
+#8 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(266): CategoriaController->runActionWithFilters()
+#9 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(283): CategoriaController->run()
+#10 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#11 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CWebApplication->run()
+REQUEST_URI=/frikicity/categoria/1
+in /Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/CategoriaController.php (57)
+in /Users/cristian/Dropbox/proyectos/frikicity/index.php (13)
+2013/01/15 18:18:46 [error] [php] Trying to get property of non-object (/Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/CategoriaController.php:57)
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(309): CInlineAction->runWithParams()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(134): CategoriaController->runAction()
+#3 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#4 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#5 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CInlineFilter.php(59): CategoriaController->filterAccessControl()
+#6 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#7 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(292): CFilterChain->run()
+#8 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(266): CategoriaController->runActionWithFilters()
+#9 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(283): CategoriaController->run()
+#10 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#11 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CWebApplication->run()
+REQUEST_URI=/frikicity/categoria/1
+in /Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/CategoriaController.php (57)
+in /Users/cristian/Dropbox/proyectos/frikicity/index.php (13)
+2013/01/15 18:22:54 [error] [php] Trying to get property of non-object (/Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/CategoriaController.php:57)
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(309): CInlineAction->runWithParams()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(134): CategoriaController->runAction()
+#3 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#4 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#5 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CInlineFilter.php(59): CategoriaController->filterAccessControl()
+#6 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#7 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(292): CFilterChain->run()
+#8 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(266): CategoriaController->runActionWithFilters()
+#9 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(283): CategoriaController->run()
+#10 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#11 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CWebApplication->run()
+REQUEST_URI=/frikicity/categoria/1
+in /Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/CategoriaController.php (57)
+in /Users/cristian/Dropbox/proyectos/frikicity/index.php (13)
+2013/01/15 18:22:56 [error] [php] Trying to get property of non-object (/Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/CategoriaController.php:57)
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(309): CInlineAction->runWithParams()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(134): CategoriaController->runAction()
+#3 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#4 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#5 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CInlineFilter.php(59): CategoriaController->filterAccessControl()
+#6 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#7 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(292): CFilterChain->run()
+#8 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(266): CategoriaController->runActionWithFilters()
+#9 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(283): CategoriaController->run()
+#10 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#11 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CWebApplication->run()
+REQUEST_URI=/frikicity/categoria/1
+in /Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/CategoriaController.php (57)
+in /Users/cristian/Dropbox/proyectos/frikicity/index.php (13)
+2013/01/15 18:26:36 [error] [php] Trying to get property of non-object (/Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/CategoriaController.php:57)
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(309): CInlineAction->runWithParams()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(134): CategoriaController->runAction()
+#3 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#4 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#5 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CInlineFilter.php(59): CategoriaController->filterAccessControl()
+#6 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#7 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(292): CFilterChain->run()
+#8 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(266): CategoriaController->runActionWithFilters()
+#9 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(283): CategoriaController->run()
+#10 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#11 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CWebApplication->run()
+REQUEST_URI=/frikicity/categoria/1
+in /Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/CategoriaController.php (57)
+in /Users/cristian/Dropbox/proyectos/frikicity/index.php (13)
+2013/01/15 18:27:23 [error] [php] Undefined variable: nombre (/Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/CategoriaController.php:58)
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(309): CInlineAction->runWithParams()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(134): CategoriaController->runAction()
+#3 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#4 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#5 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CInlineFilter.php(59): CategoriaController->filterAccessControl()
+#6 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#7 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(292): CFilterChain->run()
+#8 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(266): CategoriaController->runActionWithFilters()
+#9 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(283): CategoriaController->run()
+#10 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#11 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CWebApplication->run()
+REQUEST_URI=/frikicity/categoria/1
+in /Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/CategoriaController.php (58)
+in /Users/cristian/Dropbox/proyectos/frikicity/index.php (13)
+2013/01/15 18:28:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imagenes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('imagenes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/imagenes/iphone5black.gif
+HTTP_REFERER=http://localhost/frikicity/categoria/1
+---
+2013/01/15 18:28:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imagenes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('imagenes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/imagenes/iphone4s16gb.gif
+HTTP_REFERER=http://localhost/frikicity/categoria/1
+---
+2013/01/15 18:28:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imagenes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('imagenes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/imagenes/iphone48gb.gif
+HTTP_REFERER=http://localhost/frikicity/categoria/1
+---
+2013/01/15 18:29:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imagenes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('imagenes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/imagenes/wiiimagenpequena.gif
+HTTP_REFERER=http://localhost/frikicity/index.php
+---
+2013/01/15 18:29:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imagenes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('imagenes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/imagenes/xslimimagenpequena.gif
+HTTP_REFERER=http://localhost/frikicity/index.php
+---
+2013/01/15 18:29:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imagenes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('imagenes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/imagenes/ps3slim-imagenpequena.gif
+HTTP_REFERER=http://localhost/frikicity/index.php
+---
+2013/01/15 18:29:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imagenes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('imagenes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/imagenes/ps3slim-imagenpequena.gif
+HTTP_REFERER=http://localhost/frikicity/index.php
+---
+2013/01/15 18:29:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imagenes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('imagenes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/imagenes/xslimimagenpequena.gif
+HTTP_REFERER=http://localhost/frikicity/index.php
+---
+2013/01/15 18:29:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imagenes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('imagenes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/imagenes/wiiimagenpequena.gif
+HTTP_REFERER=http://localhost/frikicity/index.php
+---
+2013/01/15 18:29:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('themes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/themes/frikicity/images/camera-loader.gif
+HTTP_REFERER=http://localhost/frikicity/index.php
+---
+2013/01/15 18:29:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imagenes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('imagenes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/imagenes/iphoneslice.gif
+HTTP_REFERER=http://localhost/frikicity/index.php
+---
+2013/01/15 18:30:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imagenes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('imagenes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/imagenes/iphone48gb.gif
+HTTP_REFERER=http://localhost/frikicity/categoria/1
+---
+2013/01/15 18:30:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imagenes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('imagenes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/imagenes/iphone5black.gif
+HTTP_REFERER=http://localhost/frikicity/categoria/1
+---
+2013/01/15 18:30:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imagenes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('imagenes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/imagenes/iphone4s16gb.gif
+HTTP_REFERER=http://localhost/frikicity/categoria/1
+---
+2013/01/15 18:31:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('themes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/themes/frikicity/images/camera-loader.gif
+HTTP_REFERER=http://localhost/frikicity/index.php
+---
+2013/01/15 18:31:35 [error] [exception.CException] exception 'CException' with message 'ComprarController cannot find the requested view "index".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#1 /Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/ComprarController.php(36): CController->render('index', Array)
+#2 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/actions/CInlineAction.php(50): ComprarController->actionIndex()
+#3 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#6 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#7 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#8 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(292): CFilterChain->run()
+#10 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(283): CController->run('')
+#12 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('comprar')
+#13 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#14 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/frikicity/comprar
+HTTP_REFERER=http://localhost/frikicity/index.php
+---
+2013/01/15 18:35:26 [error] [exception.CException] exception 'CException' with message 'ProductosController cannot find the requested view "productos".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php:879
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(783): CController->renderPartial('productos', Array, true)
+#1 /Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/ProductosController.php(55): CController->render('productos', Array)
+#2 [internal function]: ProductosController->actionView('34')
+#3 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(ProductosController), Array)
+#4 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(ProductosController), Object(ReflectionMethod), Array)
+#5 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#6 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(292): CFilterChain->run()
+#12 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(283): CController->run('view')
+#14 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('productos/view')
+#15 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/frikicity/productos/34
+HTTP_REFERER=http://localhost/frikicity/categoria/1
+---
+2013/01/15 18:37:14 [error] [exception.CException] exception 'CException' with message 'BlogController and its behaviors do not have a method or closure named "fecha".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CComponent.php:266
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/protected/views/blog/index.php(34): CComponent->__call('fecha', Array)
+#1 /Users/cristian/Dropbox/proyectos/frikicity/protected/views/blog/index.php(34): BlogController->fecha('2013-01-09 14:3...')
+#2 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CBaseController.php(127): require('/Users/cristian...')
+#3 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Users/cristian...', Array, true)
+#4 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(870): CBaseController->renderFile('/Users/cristian...', Array, true)
+#5 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#6 /Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/BlogController.php(50): CController->render('index', Array)
+#7 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/actions/CInlineAction.php(50): BlogController->actionIndex()
+#8 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#9 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#10 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#11 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#12 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#13 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#14 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(292): CFilterChain->run()
+#15 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(283): CController->run('')
+#17 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('blog')
+#18 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#19 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/frikicity/blog
+HTTP_REFERER=http://localhost/frikicity/comprar
+---
+2013/01/15 18:39:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('themes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/themes/frikicity/images/camera-loader.gif
+HTTP_REFERER=http://localhost/frikicity/index.php
+---
+2013/01/15 18:46:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('themes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/themes/ganaderos/images/preloader.gif
+HTTP_REFERER=http://localhost/frikicity/site/login
+---
+2013/01/15 18:46:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('themes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/themes/ganaderos/images/close.png
+HTTP_REFERER=http://localhost/frikicity/site/login
+---
+2013/01/15 18:46:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('themes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/themes/frikicity/images/camera-loader.gif
+HTTP_REFERER=http://localhost/frikicity/
+---
+2013/01/15 18:46:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('themes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/themes/ganaderos/images/close.png
+HTTP_REFERER=http://localhost/frikicity/site/login
+---
+2013/01/15 18:46:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('themes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/themes/ganaderos/images/preloader.gif
+HTTP_REFERER=http://localhost/frikicity/site/login
+---
+2013/01/15 18:46:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('themes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/themes/ganaderos/images/preloader.gif
+HTTP_REFERER=http://localhost/frikicity/site/login
+---
+2013/01/15 18:46:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('themes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/themes/ganaderos/images/close.png
+HTTP_REFERER=http://localhost/frikicity/site/login
+---
+2013/01/15 18:46:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('themes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/themes/ganaderos/images/preloader.gif
+HTTP_REFERER=http://localhost/frikicity/imagenesSlice/index
+---
+2013/01/15 18:46:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('themes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/themes/ganaderos/images/close.png
+HTTP_REFERER=http://localhost/frikicity/imagenesSlice/index
+---
+2013/01/15 18:46:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('themes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/themes/ganaderos/images/close.png
+HTTP_REFERER=http://localhost/frikicity/menu/index
+---
+2013/01/15 18:46:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('themes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/themes/ganaderos/images/preloader.gif
+HTTP_REFERER=http://localhost/frikicity/menu/index
+---
+2013/01/15 18:46:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('themes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/themes/ganaderos/images/preloader.gif
+HTTP_REFERER=http://localhost/frikicity/menu/create
+---
+2013/01/15 18:46:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('themes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/themes/ganaderos/images/close.png
+HTTP_REFERER=http://localhost/frikicity/menu/create
+---
+2013/01/15 18:47:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('themes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/themes/ganaderos/images/close.png
+HTTP_REFERER=http://localhost/frikicity/menu/6
+---
+2013/01/15 18:47:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('themes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/themes/ganaderos/images/preloader.gif
+HTTP_REFERER=http://localhost/frikicity/menu/6
+---
+2013/01/15 18:47:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('themes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/themes/frikicity/images/camera-loader.gif
+HTTP_REFERER=http://localhost/frikicity/
+---
+2013/01/15 18:51:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('themes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/themes/frikicity/images/camera-loader.gif
+HTTP_REFERER=http://localhost/frikicity/
+---
+2013/01/15 18:51:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('themes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/themes/ganaderos/images/preloader.gif
+HTTP_REFERER=http://localhost/frikicity/site/login
+---
+2013/01/15 18:51:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/view".' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('themes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/themes/ganaderos/images/close.png
+HTTP_REFERER=http://localhost/frikicity/site/login
+---
+2013/01/15 18:51:31 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity._id" is not defined.' in /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CComponent.php:174
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/protected/components/UserIdentity.php(38): CComponent->__set('_id', NULL)
+#1 /Users/cristian/Dropbox/proyectos/frikicity/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/framework/validators/CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#3 /Users/cristian/Dropbox/proyectos/frikicity/framework/validators/CValidator.php(214): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#5 /Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/SiteController.php(95): CModel->validate()
+#6 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/actions/CInlineAction.php(50): SiteController->actionLogin()
+#7 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#9 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(283): CController->run('login')
+#11 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('site/login')
+#12 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/frikicity/site/login
+HTTP_REFERER=http://localhost/frikicity/site/login
+---
+2013/01/15 19:34:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'frikicit_shin'@'localhost' (using password: YES)' in /Users/cristian/Dropbox/proyectos/frikicity/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CModule.php(388): CDbConnection->init()
+#3 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /Users/cristian/Dropbox/proyectos/frikicity/framework/db/ar/CActiveRecord.php(619): CApplication->getDb()
+#5 /Users/cristian/Dropbox/proyectos/frikicity/framework/db/ar/CActiveRecord.php(2262): CActiveRecord->getDbConnection()
+#6 /Users/cristian/Dropbox/proyectos/frikicity/framework/db/ar/CActiveRecord.php(383): CActiveRecordMetaData->__construct(Object(Pagina))
+#7 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CActiveDataProvider.php(75): CActiveRecord::model('Pagina')
+#8 /Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/PaginaController.php(118): CActiveDataProvider->__construct('Pagina')
+#9 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/actions/CInlineAction.php(50): PaginaController->actionIndex()
+#10 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(292): CFilterChain->run()
+#17 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(283): CController->run('index')
+#19 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('pagina/index')
+#20 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/frikicity/pagina/index
+HTTP_REFERER=http://localhost/frikicity/admin
+---
+2013/01/15 19:35:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'frikicit_shin'@'localhost' (using password: YES)' in /Users/cristian/Dropbox/proyectos/frikicity/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CModule.php(388): CDbConnection->init()
+#3 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /Users/cristian/Dropbox/proyectos/frikicity/framework/db/ar/CActiveRecord.php(619): CApplication->getDb()
+#5 /Users/cristian/Dropbox/proyectos/frikicity/framework/db/ar/CActiveRecord.php(2262): CActiveRecord->getDbConnection()
+#6 /Users/cristian/Dropbox/proyectos/frikicity/framework/db/ar/CActiveRecord.php(383): CActiveRecordMetaData->__construct(Object(Pagina))
+#7 /Users/cristian/Dropbox/proyectos/frikicity/protected/models/Pagina.php(24): CActiveRecord::model('Pagina')
+#8 /Users/cristian/Dropbox/proyectos/frikicity/protected/views/site/index.php(2): Pagina::model()
+#9 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CBaseController.php(127): require('/Users/cristian...')
+#10 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Users/cristian...', NULL, true)
+#11 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(870): CBaseController->renderFile('/Users/cristian...', NULL, true)
+#12 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(783): CController->renderPartial('index', NULL, true)
+#13 /Users/cristian/Dropbox/proyectos/frikicity/protected/controllers/SiteController.php(32): CController->render('index')
+#14 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#15 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#16 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#17 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(283): CController->run('')
+#19 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#20 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/frikicity/
+HTTP_REFERER=http://localhost/frikicity/admin
+---
+2013/01/15 19:35:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/view"' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('themes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/themes/ganaderos/images/preloader.gif
+HTTP_REFERER=http://localhost/frikicity/site/login
+---
+2013/01/15 19:35:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/view"' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('themes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/themes/ganaderos/images/close.png
+HTTP_REFERER=http://localhost/frikicity/site/login
+---
+2013/01/15 19:36:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/view"' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('themes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/themes/ganaderos/images/close.png
+HTTP_REFERER=http://localhost/frikicity/site/login
+---
+2013/01/15 19:36:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/view"' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('themes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/themes/ganaderos/images/preloader.gif
+HTTP_REFERER=http://localhost/frikicity/site/login
+---
+2013/01/15 19:36:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/view"' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('themes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/themes/ganaderos/images/preloader.gif
+HTTP_REFERER=http://localhost/frikicity/site/login
+---
+2013/01/15 19:36:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/view"' in /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/cristian/Dropbox/proyectos/frikicity/framework/web/CWebApplication.php(142): CWebApplication->runController('themes/view')
+#1 /Users/cristian/Dropbox/proyectos/frikicity/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/cristian/Dropbox/proyectos/frikicity/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frikicity/themes/ganaderos/images/close.png
+HTTP_REFERER=http://localhost/frikicity/site/login
+---

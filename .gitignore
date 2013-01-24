@@ -1,0 +1,6 @@
+.DS_Store
+imagenes/*
+viejo/
+emailer/*.jpg
+emailer/*.gif
+emailer/*.png

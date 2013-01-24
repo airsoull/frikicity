@@ -1,0 +1,63 @@
+/*All Resolutions
+=================*/
+.filter_navigation	{ border-bottom:#efefef 1px solid; padding:0px 0 25px 0; margin:0 0 25px 0}
+.filter_navigation	ul { margin:0; padding:0}
+.filter_navigation	ul li { margin:0}
+.filter_navigation	ul li ul { overflow:hidden; margin:0; padding:0}
+.filter_navigation	ul li ul li { border-left:#e6e6e6 1px solid; padding:0 10px; float:left; margin:0; text-transform:uppercase}
+.filter_navigation	ul li ul li a { color:#999999; text-decoration:none; font-size:12px;}
+.filter_navigation	ul li ul li.selected a { color:#555555; text-decoration:none}
+.filter_navigation	ul li ul li a:hover { text-decoration:none; color:#555555}
+.filter_navigation	ul li ul li:first-child { border-left:none}
+
+.image-grid { overflow:hidden}
+.image-grid li { background:none; overflow:hidden}
+.image-grid li div.img_box { line-height:0px}
+.image-grid li:hover { background:#eeeeee; border-bottom:#006699 1px solid;}
+.image-grid li a { color:#555555; font-size:14px; font-family: 'Open Sans', sans-serif; text-decoration:none}
+.image-grid li p { margin-top:8px 0 0 0; font-style:italic}
+.image-grid li:hover a, .image-grid li a:hover  { text-decoration:none; color:#006699}
+
+.columns1 li { margin:0 0 31px 0; cursor:pointer}
+.columns1 li:hover { margin-bottom:30px}
+.columns1 li .txt_box { text-align:center; padding:25px 0 0 0;}
+
+.columns2 li { margin-bottom:31px!important; cursor:pointer; text-align:center; padding:0!important}
+.columns2 li img { margin-bottom:15px}
+.columns2 li:hover { margin-bottom:30px!important}
+
+.columns3 li { margin-bottom:21px!important; cursor:pointer; text-align:center; padding:0!important}
+.columns3 li img { margin-bottom:15px}
+.columns3 li:hover { margin-bottom:20px!important}
+
+.columns4 li { margin-bottom:21px!important; cursor:pointer; text-align:center; padding:0!important}
+.columns4 li img { margin-bottom:15px}
+.columns4 li:hover { margin-bottom:20px!important}
+
+
+
+/*----------------------------------------------------------
+Tablet Portrait size to standard 960 (768x1024) 
+-----------------------------------------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+.columns1 li .txt_box { text-align:center; padding:75px 0 0 0;}
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	/*Empty*/
+}
+
+/*------------------------------------------------
+Mobile Landscape Size to Tablet Portrait (480x320)
+--------------------------------------------------*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.columns1 li .txt_box { text-align:center; padding:5px 0 0 0;}
+}
+
+/*-----------------------------------------------------
+Mobile Portrait Size to Mobile Landscape Size (320x480) 
+-------------------------------------------------------*/
+@media only screen and (max-width: 479px) {
+.columns1 li .txt_box { text-align:center; padding:5px 0 0 0;}
+}

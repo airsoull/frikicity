@@ -1,0 +1,1 @@
+<h1>Bienvenido a la administración de FRIKICITY</h1>
